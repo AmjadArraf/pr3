@@ -1,0 +1,23 @@
+create database vacs;
+use vacs;
+
+create table trips (
+id int primary key auto_increment,
+trip_name varchar(50) not null,
+trip_info varchar(200),
+destination varchar(50),
+pic varchar(300),
+start_date varchar(100),
+end_date varchar(100),
+price varchar(50),
+followers varchar(100)
+);
+
+insert into trips(trip_name, trip_info, destination, pic, start_date, end_date, price, followers)
+values
+('Paradise Island', 'trip to tahiti', 'tahiti', 'https://tahititourisme.com/wp-content/uploads/2022/11/P2_01_TAHAA_TAHITI_025_DK_2017_%C2%A9_David-Kirkland-1783x1335-1.jpg', '1/1/2023', '14/1/2023', '500', '0'),
+('Aztec', 'trip to mexico', 'mexico', 'https://images.nationalgeographic.org/image/upload/t_edhub_resource_key_image/v1638892496/EducationHub/photos/pyramid-of-the-sun.jpg', '3/4/2023', '18/4/2023', '600', '0'),
+('Pizza Trail', 'trip to italy', 'italy', 'https://st3.idealista.it/cms/archivie/2022-10/media/image/aurelien-lemasson-theobald-x00czbt4dfk-unsplash.jpg?VersionId=rsplPfGIYIR.IpPJNnTUNNPRTooJvUq.&fv=lKbIgfCL', '3/5/2023', '9/5/2023', '250', '0'),
+('Andaman', 'trip to thailand', 'thailand', 'https://a.cdn-hotels.com/gdcs/production115/d1326/a5981c45-4f4d-44b8-a581-d9b10985fcb7.jpg', '7/6/2023', '30/6/2023', '1000', '0'),
+('Spain', 'trip to spain', 'spain', 'https://worldstrides.com/wp-content/uploads/2015/10/bull1.jpg', '5/7/2023', '18/7/2023', '450', '0')
+;

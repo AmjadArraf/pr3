@@ -1,0 +1,36 @@
+[
+  {
+    "id": 23,
+    "email": "amjad56978.arr@gmail.com",
+    "password": "$2a$10$q1YvaYyAJfOcM.UmwB582.hWwVVCa18esumnHb5JidHK7N3DJfyIG",
+    "first name": "Amjad",
+    "last name": "Arraf"
+  },
+  {
+    "id": 24,
+    "email": "amjad5689978.arr@gmail.com",
+    "password": "$2a$10$Ad7ZtilXApshOZLRQsghT.VxZXfGRllYFzsiALTlos00opR760rfm",
+    "first name": "Amjad",
+    "last name": "Arraf"
+  },
+  {
+    "id": 25,
+    "email": "amjad56445454589978.arr@gmail.com",
+    "password": "$2a$10$tkIN1r7mQPQUKft6QTNuM.T2oIhnzElyRfj.5A7WsqtSwEjfSaNJS",
+    "first name": "Amjad",
+    "last name": "Arraf"
+  },
+  {
+    "id": 26,
+    "email": "amjad56445454589978.arr@gmail.com",
+    "first name": "Amjad",
+    "last name": "Arraf"
+  },
+  {
+    "id": 27,
+    "email": "amjad5644655454589978.arr@gmail.com",
+    "password": "$2a$10$hWKvOchIbJwfcZmjSdf7GuZ77pYAMl3Ai2dH0rUaDSWlaaJaugYR2",
+    "first name": "Amjad",
+    "last name": "Arraf"
+  }
+]
